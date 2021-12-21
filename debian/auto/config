@@ -3,7 +3,7 @@ set -e
 lb config noauto \
     --architectures amd64 \
     --archive-areas "main contrib non-free" \
-    --debian-installer live
+    --debian-installer live \ 
     --bootappend-live "\
         boot=live components \
         nox11autologin \
