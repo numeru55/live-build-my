@@ -1,11 +1,6 @@
 build:
-	cd ..
-	rm -rf live-build-work
-	mkdir live-build-work
-	cp -R live-build-my/* live-build-work
-	cd live-build-work
-	cd debian
-	sudo lb build
-	cd ../ubuntu
-	sudo lb build
-	cd ../../live-build-my
+	rm -rf ../live-build-work
+	mkdir ../live-build-work
+	cp -r ../live-build-my/* ../live-build-work
+	cd ../live-build-work/debian && sudo lb build
+	cd ../live-build-work/ubuntu && sudo lb build
