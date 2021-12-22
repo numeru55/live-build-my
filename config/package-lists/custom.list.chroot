@@ -1,2 +1,11 @@
 debian-installer-launcher
 gparted
+
+gnome-core
+task-desktop
+tasksel
+network-manager-gnome
+
+task-laptop
+
+broadcom-sta-dkms
