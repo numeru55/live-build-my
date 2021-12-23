@@ -10,7 +10,7 @@ build: clean config
 
 clean:
 	sudo lb clean
-	rm config/archives/google.key.*
+	rm -f config/archives/google.key.*
 
 distclean: clean
 	sudo lb clean --purge
