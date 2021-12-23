@@ -19,3 +19,4 @@ deb http://dl.google.com/linux/chrome/deb/ stable main
 # https://www.karelie.net/install-chrome-debian-9/
 # http://yakushi.shinshu-u.ac.jp/robotics/?DebianLive/Build-HOWTO#qe397947
 # https://arpinux-developpez-com.translate.goog/construire-un-live-debian/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=sc
+# https://forums.kali.org/showthread.php?43038-Kali-linux-with-a-custom-TDE-Trinity-Desktop
