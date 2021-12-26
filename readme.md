@@ -15,7 +15,7 @@ My template for debian live-build project.
 # Usage
 
 ```bash
-sudo apt update; sudo apt upgrade; sudo apt install wget
+sudo apt update; sudo apt upgrade; sudo apt install wget live-build
 make all
 ```
 
