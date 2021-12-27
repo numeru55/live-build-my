@@ -1,7 +1,4 @@
 wget
-calamares-settings-debian
-calamares
-debian-installer-launcher
 gparted
 
 emacs
