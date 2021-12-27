@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 EFI=/dev/sdc1
 ROOT=/dev/sdc2
 
@@ -9,8 +7,8 @@ lsblk
 
 echo "===== will fix EFI to... ====="
 
-echo "EFI:" $EFI
-echo "root:" $ROOT
+echo "   EFI:" $EFI
+echo "  root:" $ROOT
 
 echo "====="
 
@@ -26,6 +24,8 @@ echo "Proceeding..."
 mkdir efi
 sudo mount $EFI efi
 sudo mkdir -p efi/EFI/BOOT
+
+sudo rm -rf efi/EFI/BOOT/*
 
 # sudo apt install grub-efi-amd64-bin
 grub-mkimage -d /usr/lib/grub/x86_64-efi/ -o BOOTx64.EFI -O x86_64-efi -p "" part_gpt part_msdos ntfs ntfscomp hfsplus fat ext2 normal chain boot configfile linux multiboot
