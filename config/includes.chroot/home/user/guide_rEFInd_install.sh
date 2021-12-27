@@ -30,7 +30,7 @@ sudo cp -r refind-bin-*/refind/* efi/EFI/BOOT/
 
 sudo mv efi/EFI/BOOT/refind_x64.efi efi/EFI/BOOT/bootx64.efi 
 
-sudo cp my_refind.conf efi/EFI/BOOT/
+sudo cp my_refind.conf efi/EFI/BOOT/refind.conf
 
 sudo umount efi
 
