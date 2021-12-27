@@ -1,7 +1,7 @@
 live-boot
 live-config
 live-config-systemd
-refind
+
 grub-efi-amd64-bin
 calamares-settings-debian
 calamares
