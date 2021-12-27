@@ -8,7 +8,6 @@ My template for debian live-build project.
 - Includes my favorite apps with google chrome. ***So please consider not to provide iso to the others.*** Only for personal use.
 - Added broadcom WiFi driver for my MacBook.
 - My .emacs and setup script template is in `/home/user` .
-- Manual login at gdm: user, live.
 
 # Usage
 
@@ -19,9 +18,11 @@ make all
 
 # Known bug
 
-Another USB stick can't be booted on my Mac, which is run "debian install" program using generated ISO. 
-
+- Another USB stick can't be booted on my Mac, which is run "debian install" program using generated ISO. 
 Then, install rEFInd to the USB stick. My mac will find the installed debian.
+
+- Japanese input method is not tested.
+
 
 # Tips
 
