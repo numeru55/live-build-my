@@ -21,6 +21,13 @@ make all
 - Another USB stick can't be booted on my Mac, which is run "debian install" program using generated ISO. 
 Then, install rEFInd to the USB stick. My mac will find the installed debian.
 
+1. Burn ISO to USB media [A].
+2. Boot using [A].
+3. Using [A], install debian to other USB media [B].
+4. My mac will not find [B] as bootable.
+5. Install rEFInd to [B].
+6. My mac will boot [B] disk through rEFInd. 
+
 - Japanese input method is not tested.
 
 
