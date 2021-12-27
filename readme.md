@@ -5,11 +5,9 @@ My template for debian live-build project.
 # Specifications
 
 - Japanese, gnome simple desktop.
-
 - Includes my favorite apps with google chrome. ***So please consider not to provide iso to the others.*** Only for personal use.
-
+- Added broadcom WiFi driver for my MacBook.
 - My .emacs and setup script template is in `/home/user` .
-  
 - Manual login at gdm: user, live.
 
 # Usage
@@ -18,6 +16,12 @@ My template for debian live-build project.
 sudo apt update; sudo apt upgrade; sudo apt install wget live-build
 make all
 ```
+
+# Known bug
+
+Another USB stick can't be booted on my Mac.
+
+- Which is run "debian install" program using generated ISO. 
 
 # Tips
 
