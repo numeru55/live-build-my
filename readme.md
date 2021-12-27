@@ -9,31 +9,29 @@ My template for debian live-build project.
 - Added broadcom WiFi driver for my MacBook.
 - My .emacs and setup script template is in `/home/user` .
 
-# Usage
+- rEFInd-bin and my scripts to fix EFI.
+
+- Japanese input method is not tested.
+
+# Create ISO and use as live debian USB media
 
 ```bash
 sudo apt update; sudo apt upgrade; sudo apt install wget live-build
 make all
 ```
 
-# Known bug
+Burn or boot generated ISO.
 
-- Another USB stick can't be booted on my Mac, which is run "debian install" program using generated ISO. 
-Then, install rEFInd to the USB stick. My mac will find the installed debian.
+# Install Debian to other USB media
+
+Tested only for my Intel Mac.
 
 1. Burn ISO to USB media [A].
 2. Boot using [A].
 3. Using [A], install debian to other USB media [B].
-4. My mac will not find [B] as bootable.
-5. Install rEFInd to [B].
-6. My mac will boot [B] disk through rEFInd. 
+4. Run the scripts at `/home/user` in [A]. EFI fixed, or installed rEFInd.
 
-- Japanese input method is not tested.
-
-
-# Tips
-
-- To include file/folders for live environment, put to `config/includes.chroot/home/user`.
+These scripts are very dangerous. Please double or triple check before excuting.
 
 # Thanks to
 
@@ -49,4 +47,6 @@ https://github.com/homelith/debian-live-custom
 
 https://qiita.com/homelith/items/f30a1fbac89dc977c1ff
 
+- Fixing UEFI
 
+https://cpoint-lab.co.jp/article/202001/13627/
