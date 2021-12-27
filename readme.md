@@ -28,12 +28,17 @@ Tested only for my Intel Mac.
 
 1. Burn ISO to USB media [A].
 2. Boot using [A].
-3. Using [A], install debian to other USB media [B].
-4. Run the scripts at `/home/user` in [A]. EFI fixed, or installed rEFInd.
+3. Connect to internet. Debian installer seems requires.
+4. Using [A], install debian to other USB media [B].
+5. Run the scripts at `/home/user` in [A]. EFI fixed, or installed rEFInd.
 
 These scripts are very dangerous. Please double or triple check before excuting.
 
 # Thanks to
+
+- rEFInd
+
+https://www.rodsbooks.com/refind/index.html
 
 - markdown editor
 
