@@ -21,7 +21,7 @@ make all
 
 Another USB stick can't be booted on my Mac, which is run "debian install" program using generated ISO. 
 
-Then, install refind to the USB stick. My mac will find the installed debian.
+Then, install rEFInd to the USB stick. My mac will find the installed debian.
 
 # Tips
 
