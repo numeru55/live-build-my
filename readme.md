@@ -11,7 +11,7 @@ My template for debian live-build project.
 
 - rEFInd-bin and my scripts to fix EFI.
 
-- Japanese input method is not tested.
+- できるだけ簡単な手順で日本語入力できるようにする。
 
 # Create ISO and use as live debian USB media
 
@@ -34,6 +34,10 @@ Tested only for my Intel Mac.
 
 These scripts are very dangerous. Please double or triple check before excuting.
 
+# 日本語入力について
+
+`ibus-mozc`を指定していますので，Mac環境では[command]+[space]を何度か押してmozcにして日本語入力してください。
+
 # Thanks to
 
 - rEFInd
@@ -55,3 +59,7 @@ https://qiita.com/homelith/items/f30a1fbac89dc977c1ff
 - Fixing UEFI
 
 https://cpoint-lab.co.jp/article/202001/13627/
+
+- live-build manual
+
+https://live-team.pages.debian.net/live-manual/html/live-manual/examples.ja.html

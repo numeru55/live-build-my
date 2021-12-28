@@ -102,8 +102,8 @@ fonts-ipafont
 fonts-vlgothic
 mozc-utils-gui
 poppler-data
-uim
-uim-mozc
+#uim
+#uim-mozc
 
 ibus-mozc
 
