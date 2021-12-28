@@ -96,7 +96,7 @@ xdg-utils
 
 # task-japanese-desktop
 
-anthy
+#anthy
 #firefox-esr-l10n-ja
 fonts-ipafont
 fonts-vlgothic
@@ -104,5 +104,7 @@ mozc-utils-gui
 poppler-data
 uim
 uim-mozc
+
+ibus-mozc
 
 google-chrome-stable
